@@ -1,4 +1,4 @@
-package com.example.sqlite_test.database;
+﻿package com.example.sqlite_test.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -97,47 +97,6 @@ public class DBOpenHelper extends SQLiteOpenHelper {
 
 
 
-            //插入数据
-
-
-
-
-            String sql_insert1 = "insert into course(teacher_name,course_name,course_weight,course_time,course_period) values('李新福','电子线路基础',2,'周一上午','1')";
-            String sql_insert2 = "insert into course(teacher_name,course_name,course_weight,course_time,course_period) values('高华* 刘梅英','大学英语4',4,'周五上午','1')";
-            String sql_insert3 = "insert into course(teacher_name,course_name,course_weight,course_time,course_period) values('魏勇刚','数据库原理',3,'周三上午','1')";
-            String sql_insert4 = "insert into course(teacher_name,course_name,course_weight,course_time,course_period) values('司建辉','数学模型',2,'周一晚上','1')";
-            String sql_insert5 = "insert into course(teacher_name,course_name,course_weight,course_time,course_period) values('司建辉','运筹学',2,'周三下午','1')";
-            String sql_insert6 = "insert into course(teacher_name,course_name,course_weight,course_time,course_period) values('王丽芹','毛泽东思想概论',4.5,'周五晚上','1')";
-            db.execSQL(sql_insert1);
-            db.execSQL(sql_insert2);
-            db.execSQL(sql_insert3);
-            db.execSQL(sql_insert4);
-            db.execSQL(sql_insert5);
-            db.execSQL(sql_insert6);
-
-
-
-
-
-            String sql_p = "insert into student(id ,name ,sex,age ,banji , phone, college )" +
-                    " values(20171302028,'武跃航','男',19,'17计科3班',18833025218,'网络空间安全与计算机学院')";
-            String sql_tp = "insert into teacher(teacher_id ,name ,sex,age ,level , phone, college )" +
-                    " values(2017,'司建辉','男',19,'高级教师',18833025218,'网络空间安全与计算机学院')";
-            String sql_p1 = "insert into student(id ,name ,sex,age ,banji , phone, college )" +
-                    " values(20180301178,'梁晨','女',20,'18新闻2班',18812141606,'新闻传播学院')";
-            String sql_p2 = "insert into student(id ,name ,sex,age ,banji , phone, college )" +
-                    " values(20171302029,'台亮','男',20,'17计科3班',18812141605,'网络空间安全与计算机学院')";
-            String sql_p3 = "insert into student(id ,name ,sex,age ,banji , phone, college )" +
-                    " values(20171302030,'王腾','男',20,'17计科3班',18812141604,'网络空间安全与计算机学院')";
-            String sql_tp1 = "insert into teacher(teacher_id ,name ,sex,age ,level , phone, college )" +
-                    " values(2018,'魏勇刚','男',20,'高级教师',13831026200,'网络空间安全与计算机学院')";
-            db.execSQL(sql_p);
-            db.execSQL(sql_tp);
-            db.execSQL(sql_p1);
-            db.execSQL(sql_p2);
-            db.execSQL(sql_p3);
-            db.execSQL(sql_tp1);
-            //学生信息以及账户
 
 
 
