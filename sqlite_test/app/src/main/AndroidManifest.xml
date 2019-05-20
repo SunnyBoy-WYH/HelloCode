@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sqlite_test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/school_new"
+        android:label="HBU"
+        android:roundIcon="@mipmap/school_new"
+        android:supportsRtl="true"
+        android:theme="@style/NoActivityFULLscreen">
+        <activity android:name=".administractor.Container"></activity>
+        <activity android:name=".student.submit_message" />
+        <activity android:name=".administractor.change_course_set" />
+        <activity android:name=".teacher.change_student_score" />
+        <activity android:name=".administractor.change_account_teacher" />
+        <activity android:name=".administractor.delete_change_teacher" />
+        <activity android:name=".administractor.add_teacher" />
+        <activity android:name=".teacher.activity_teacher" />
+        <activity android:name=".student.about_me" />
+        <activity android:name=".student.choose_course" />
+        <activity android:name=".student.activity_student" />
+        <activity android:name=".student.password_change" />
+        <activity android:name=".administractor.change_account" />
+        <activity android:name=".start_load.load" />
+        <activity android:name=".start_load.startActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".administractor.add" />
+        <activity android:name=".administractor.delete_change" />
+        <activity android:name=".administractor.MainActivity" />
+    </application>
+
+</manifest>
